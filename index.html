@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartech | Student Record System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/third.png" alt="Smartech Logo">
+                    <div class="logo-text">
+                        <h1>SMARTECH</h1>
+                        <p>Student Record System</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-buttons">
+                <a href="login.php" class="btn btn-outline">LOGIN</a>
+                <a href="register.php" class="btn btn-primary">REGISTER</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>SMARTECH<br>STUDENT RECORD SYSTEM</h1>
+                <p class="subtitle">Streamline your educational institution's record management with our powerful platform</p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Schools</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50,000+</h3>
+                        <p>Students</p>
+                    </div>
+                    <div class="stat">
+                        <h3>99.9%</h3>
+                        <p>Uptime</p>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="php/login.php" class="btn btn-primary btn-large">
+                        <i class="fas fa-sign-in-alt"></i> LOGIN
+                    </a>
+                    <a href="php/register.php" class="btn btn-secondary btn-large">
+                        <i class="fas fa-user-plus"></i> REGISTER
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p class="section-subtitle">Why Choose Smartech?</p>
+            
+            <div class="about-cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Purpose</h3>
+                    <p>Our Student Record System is designed with user-friendliness in mind. The intuitive interface allows administrators, teachers, and students to navigate through the system effortlessly.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Functionality</h3>
+                    <p>Enables users to add, update, and manage student records quickly, with role-based login access for both students and administrators.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Vision</h3>
+                    <p>To provide an efficient and reliable platform for managing student records, ensuring data accuracy, security, and accessibility for educational institutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <p class="section-subtitle">Explore what makes Smartech efficient and user-friendly</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/dashboard-preview.jpg" alt="Dashboard Preview">
+                        <div class="overlay">
+                            <h3>Dashboard View</h3>
+                            <p>Clean visual interface for all records</p>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3><i class="fas fa-chart-line"></i> Dashboard View</h3>
+                        <p>Admins can view all records and stats in a clean visual interface with real-time analytics.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Real-time updates</li>
+                            <li><i class="fas fa-check"></i> Customizable widgets</li>
+                            <li><i class="fas fa-check"></i> Export reports</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/records-management.jpg" alt="Records Management">
+                        <div class="overlay">
+                            <h3>Manage Records</h3>
+                            <p>Easy student information management</p>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3><i class="fas fa-database"></i> Manage Records</h3>
+                        <p>Easily add, update, and delete student information with one click. Complete control over student data.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Bulk upload</li>
+                            <li><i class="fas fa-check"></i> Advanced search</li>
+                            <li><i class="fas fa-check"></i> Data validation</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/security-interface.jpg" alt="Secure Login">
+                        <div class="overlay">
+                            <h3>Secure Login</h3>
+                            <p>Protected user data access</p>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3><i class="fas fa-shield-alt"></i> Secure Login</h3>
+                        <p>Protects user data with role-based access for students and admins. Enterprise-grade security.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Two-factor auth</li>
+                            <li><i class="fas fa-check"></i> Role permissions</li>
+                            <li><i class="fas fa-check"></i> Audit logs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="features-extra">
+                <div class="extra-item">
+                    <i class="fas fa-cloud"></i>
+                    <h4>Cloud Storage</h4>
+                    <p>Secure cloud access</p>
+                </div>
+                <div class="extra-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Mobile App</h4>
+                    <p>iOS & Android</p>
+                </div>
+                <div class="extra-item">
+                    <i class="fas fa-sync"></i>
+                    <h4>Auto Sync</h4>
+                    <p>Real-time updates</p>
+                </div>
+                <div class="extra-item">
+                    <i class="fas fa-headset"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Live assistance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">Have questions or need support? Reach out to our team</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>support@smartech.edu</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Education Street</p>
+                            <p>Tech City, TC 10001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/third.png" alt="Smartech Logo">
+                    <h3>SMARTECH</h3>
+                </div>
+                <p>© 2024 Smartech Student Record System. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#features">Features</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

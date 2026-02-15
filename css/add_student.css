@@ -1,0 +1,148 @@
+/* 🌐 Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    display: flex;
+}
+
+/* 🧭 Sidebar */
+.sidebar {
+   width: 260px;
+   min-height: 100vh;
+    background: #0c1b4d;
+    color: #fff;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidebar img {
+    width: 60px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.sidebar h1 {
+    font-family: 'Lucida Handwriting',cursive;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #00e0ff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: #dfe6f0;
+    text-decoration: none;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.sidebar ul li a.active,
+.sidebar ul li a:hover {
+    background: #172b69;
+    color: #fff;
+}
+
+/* 🌐 Main Content */
+.main-content {
+    margin-left: 220px;
+    padding: 40px;
+    width: 100%;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-container h1 {
+    margin-bottom: 10px;
+    color: #1f2a44;
+}
+
+.form-container .subtitle {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+/* 📝 Form Fields */
+.add-student-form .row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.add-student-form input,
+.add-student-form select {
+    flex: 1;
+    padding: 12px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.add-student-form input:focus,
+.add-student-form select:focus {
+    border-color: #00bcd4;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,188,212,0.3);
+}
+
+/* 🟢 Button */
+.btn {
+    width: 100%;
+    padding: 14px;
+    background: #00bcd4;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0193a1;
+    transform: translateY(-2px);
+}
+
+/* 💬 Messages */
+.message {
+    margin-top: 20px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.message.success {
+    background: #e0f8e9;
+    color: #218838;
+    border: 1px solid #28a745;
+}
+
+.message.error {
+    background: #f8e0e0;
+    color: #c82333;
+    border: 1px solid #dc3545;
+}
+
+/* 📱 Responsive */
+@media(max-width:768px) {
+    .sidebar { display: none; }
+    .main-content { margin-left: 0; padding: 20px; }
+    .add-student-form .row { flex-direction: column; }
+}
