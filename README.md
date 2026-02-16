@@ -317,4 +317,4 @@ Loadingg/
 | **Name** | Kushma Shrestha |
 | **Email** | arushsthaii@gmail.com |
 | **GitHub** | [@Kushmma](https://github.com/Kushmma) |
-| **Instagram** | [@kushmma](https://instagram.com/kushmma) |
+
